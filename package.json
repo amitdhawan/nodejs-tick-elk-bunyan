@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-tick-elk-bunyan",
+  "version": "1.0.0",
+  "description": "A nodejs application displaying the power of opensource alerting and monitoring tools like TICK stack using ELK stack to show logs dashboard in KIbana.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitdhawan/nodejs-tick-elk-bunyan.git"
+  },
+  "keywords": [
+    "TICK",
+    "ELK",
+    "BUNYAN",
+    "NODEJS"
+  ],
+  "author": "Amit Dhawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitdhawan/nodejs-tick-elk-bunyan/issues"
+  },
+  "homepage": "https://github.com/amitdhawan/nodejs-tick-elk-bunyan#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.16.4"
+  }
+}
